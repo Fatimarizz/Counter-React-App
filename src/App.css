@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+ 
+}
+.body{
+  width: 550px;
+height: 704px;
+left: 0px;
+top: 0px;
+}
+.main {
+  /* padding-left: 235px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+span.badge{
+  color: black;
+  font-size: 24px;
+}
+span.logo{
+  margin-right: 20px;
+}
+nav.navbar{
+  justify-content: center;
+  padding-left: 30px;
+  padding-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.refresh{
+  padding-left:30px;
+}
+.card--body{
+  padding: 50px 10px;
+    border: 10px solid #7fd8e6;
+    border-radius: 12px;
+    justify-content: center;
+    background-color: #ddf2f5;
+    margin: 0px 60px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.count{
+  border-radius: 19px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #17a2b8;
+  padding: 4px 32px
+}
+.main_wrap{
+  
+    padding: 50px 0;
+  
+}
+
+
+.logo{
+  
+align-content: space-between;
+
+}
+.navbar{
+  background: transparent!important;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+.logoText{
+  line-height: 20px
+}
+.card{
+  width: 90%;
+ 
+    font-size: 12px;
+    margin: 40px 40px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: row; /* ADD */
+    position: relative;
+    
+    border-bottom: 1px  solid white;
+}
+.cardbody{
+  margin: 10px;
+  padding-left: 10px;
+}
+.location img{
+  width: 7px;
+height: 9.55px;
+}
+.loc{
+  letter-spacing: 0.17em;
+}
+.location a
+{
+  text-decoration-line: underline;
+padding-left: 12px;
+  color: #918E9B;
+
+
+
+
+}
+.card--image{
+  width: 125px;
+height: 168px;
+left: 40px;
+top: 100px;
+
+
+border-radius: 5px;
+}
+
+.date{
+  font-size: 12px;
+  font-weight:700;
+
+}
+.description{
+margin-top: 9px;
+}
